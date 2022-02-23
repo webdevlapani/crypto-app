@@ -62,24 +62,21 @@ const Header: FC = () => {
               </NavLink>
             )}
           </Popover.Group>
-          <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+          <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0 space-x-4">
             <span
               {...(!auth.user.name && { onClick: openModal })}
               className="cursor-pointer whitespace-nowrap text-base font-medium text-white hover:text-[#ff8215]"
             >
               {auth.user.name || "Log in"}
             </span>
-          </div>
           {auth.user.name && (
-            <div
+            <span 
               onClick={logout}
-              className="hidden md:flex items-center justify-end md:flex-1 lg:w-0"
-            >
-              <span className="cursor-pointer whitespace-nowrap text-base font-medium text-white hover:text-[#ff8215]">
+              className="cursor-pointer whitespace-nowrap text-base font-medium text-white hover:text-[#ff8215]">
                 Log out
-              </span>
-            </div>
+            </span>
           )}
+          </div>
           <LoginModal isOpen={isOpen} setIsOpen={setIsOpen} />
         </div>
       </div>
