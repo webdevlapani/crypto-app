@@ -1,3 +1,11 @@
+Prject Credentials 
+Live URL : http://crypto-app-tailwind.herokuapp.com/
+
+```
+username : admin@test.com
+password: admin
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
