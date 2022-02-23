@@ -4,6 +4,8 @@ Prject Credentials
 
 Live URL : http://crypto-app-tailwind.herokuapp.com/
 
+Video Demo : https://www.loom.com/share/9388b39b7bc34cb4b9494225fb0e1617
+
 ```
 username: admin@test.com
 password: admin
