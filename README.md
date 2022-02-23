@@ -2,7 +2,7 @@ Prject Credentials
 Live URL : http://crypto-app-tailwind.herokuapp.com/
 
 ```
-username : admin@test.com
+username: admin@test.com
 password: admin
 ```
 
